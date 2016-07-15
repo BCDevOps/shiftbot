@@ -4,9 +4,13 @@
   "private": true,
   "author": "Shea Phillips <shea.phillips@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": "bin/hubot"
+  },
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
+    "hubot-github-webhook-listener": "^0.9.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.2.0",
